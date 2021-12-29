@@ -44,8 +44,15 @@ commentForm.onsubmit = function (evt) {
 
 ## Experience
 - **WorldSkills Standard Specification:** [Skills Passport](https://sp.dp.worldskills.ru/679252e3-5671-4453-b872-c605afdfaf98)  
-  - _Design and web-development course_  
-  - Exam paper (HTML, CSS, JavaScript): [GitHub](https://kafka2020.github.io/Design.pro/)
+    - _Design and web-development course_  
+    - Exam paper (HTML, CSS, JavaScript): [GitHub](https://kafka2020.github.io/Design.pro/)
 
 ## Education
-- ****
+- ***July 2011:***  
+    - **North-Caucasus Federal University (NCFU) (formerly North-Caucasus State Technical University), Stavropol**  
+    - Engineer at specialty Electric drive and automation of industrial plants and technological complexes
+
+- ***August 2021:***  
+    - **Stavropol State Agrarian University, Stavropol**  
+    - Postgraduate diploma in Web Development
+    
