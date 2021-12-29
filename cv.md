@@ -25,3 +25,19 @@ Now I want to learn the necessary knowledge and become a front-end developer.
 - Git, GitHub
 - VS Code, Chrome DevTools, Figma
 
+### Code example
+```JavaScript
+let commentForm = document.querySelector('.comment-form');
+let commentList = document.querySelector('.comment-list');
+let commentField = document.querySelector('.comment-field');
+
+commentForm.onsubmit = function (evt) {
+  evt.preventDefault();
+
+  let newComment = document.createElement('li');
+  newComment.classList.add('user-comment');
+  newComment.textContent = commentField.value;
+  commentField.value = '';
+  commentList.append(newComment);
+};
+```
