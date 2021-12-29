@@ -25,7 +25,7 @@ Now I want to learn the necessary knowledge and become a front-end developer.
 - Git, GitHub
 - VS Code, Chrome DevTools, Figma
 
-### Code example
+## Code example
 ```JavaScript
 let commentForm = document.querySelector('.comment-form');
 let commentList = document.querySelector('.comment-list');
@@ -41,3 +41,8 @@ commentForm.onsubmit = function (evt) {
   commentList.append(newComment);
 };
 ```
+
+## Experience
+- **WorldSkills Standard Specification:** [Skills Passport](https://sp.dp.worldskills.ru/679252e3-5671-4453-b872-c605afdfaf98)  
+_Design and web-development course_  
+Exam paper (HTML, CSS, JavaScript): [GitHub](https://kafka2020.github.io/Design.pro/)
