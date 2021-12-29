@@ -55,4 +55,7 @@ commentForm.onsubmit = function (evt) {
 - ***August 2021:***  
     - **Stavropol State Agrarian University, Stavropol**  
     - Postgraduate diploma in Web Development
-    
+
+## Languages
+- Russian \- Native
+- English \- A2 (Elementary English)
