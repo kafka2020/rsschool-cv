@@ -44,5 +44,8 @@ commentForm.onsubmit = function (evt) {
 
 ## Experience
 - **WorldSkills Standard Specification:** [Skills Passport](https://sp.dp.worldskills.ru/679252e3-5671-4453-b872-c605afdfaf98)  
-_Design and web-development course_  
-Exam paper (HTML, CSS, JavaScript): [GitHub](https://kafka2020.github.io/Design.pro/)
+  - _Design and web-development course_  
+  - Exam paper (HTML, CSS, JavaScript): [GitHub](https://kafka2020.github.io/Design.pro/)
+
+## Education
+- ****
