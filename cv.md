@@ -13,6 +13,6 @@
 - **LinkedIn:** [LinkedIn](https://www.https://www.linkedin.com/in/andrey-shinkarev-0b43b4166/)
 
 ## About Myself
-As a child, when I was 10, I started programming in BASIC. It was fun. At school I really liked computer science and programming. After school, I went to university and graduated as an electrical engineer. But the childhood love of programming has not gone away.\
+As a child, when I was 10, I started programming in BASIC. It was fun. At school I really liked computer science and programming. After school, I went to university and graduated as an electrical engineer. But the childhood love of programming has not gone away.
 
 Now I want to learn the necessary knowledge and become a front-end developer.
