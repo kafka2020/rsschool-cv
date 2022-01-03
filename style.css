@@ -1,1 +1,25 @@
 /* Fonts */
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/InterRegular.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url(./assets/fonts/MontserratBold.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/SourceCodeProRegular.woff2);
+    font-display: swap;
+}
