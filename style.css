@@ -40,6 +40,20 @@
   font-display: swap;
 }
 
+/* Variables */
+
+:root {
+  --main-color: ;
+  --special-color: ;
+  --title-color: ;
+  --text-color: #222222;
+  --text-light-color: #F9F9F9;
+  --hover-color: #888888;
+  --light-bg: ;
+  --dark-bg: #0C0C0C;
+  ;
+}
+
 /* Global */
 
 * {
@@ -80,8 +94,11 @@ html {
   line-height: 50px;
   font-weight: 400;
   text-align: center;
-  color: inherit;
+  color: var(--text-color);
   text-decoration: none;
+  transition: color 0.5s;
 }
 
-
+.nav-link:hover {
+  color: var(--hover-color);
+}
