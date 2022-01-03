@@ -1,1 +1,196 @@
 /* Fonts */
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/fonts/InterRegular.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url(./assets/fonts/MontserratBold.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/fonts/MontserratRegular.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(./assets/fonts/MontserratBold.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/fonts/SourceCodeProRegular.woff2);
+  font-display: swap;
+}
+
+/* Variables */
+
+:root {
+  --text-color: #F9F9F9;
+  --special-color: #FFD700;
+  --dark-bg: #0C0C0C;
+}
+
+/* Global */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--dark-bg);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+/* Navigation */
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--special-color);
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: var(--text-color);
+}
+
+/* Links */
+
+.section-item a {
+  text-decoration: none;
+  color: var(--special-color)
+}
+
+/* Sections */
+
+.section {
+  padding: 20px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid var(--special-color);
+}
+
+.section-profile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.section-profile-logo {
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px var(--dark-bg) inset;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--special-color);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--dark-bg);
+}
+
+.github {
+
+  color: var(--dark-bg);
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Layouts */
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+/* Adaptive */
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
