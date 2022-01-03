@@ -143,6 +143,33 @@ html {
   font-size: 16px;
 }
 
+/* Footer */
+.footer {
+  background-color: var(--special-color);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--dark-bg);
+}
+
+.github {
+
+  color: var(--dark-bg);
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* Layouts */
 
 .main-container {
