@@ -43,15 +43,9 @@
 /* Variables */
 
 :root {
-  --main-color: ;
-  --special-color: ;
-  --title-color: ;
-  --text-color: #222222;
-  --text-light-color: #F9F9F9;
-  --hover-color: #888888;
-  --light-bg: ;
+  --text-color: #F9F9F9;
+  --special-color: #FFD700;
   --dark-bg: #0C0C0C;
-  ;
 }
 
 /* Global */
@@ -77,11 +71,13 @@ html {
   font-weight: 400;
   line-height: 1.5;
   color: var(--text-color);
+  background-color: var(--dark-bg);
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  min-height: 50px;
 }
 
 /* Navigation */
@@ -103,13 +99,48 @@ html {
   line-height: 50px;
   font-weight: 400;
   text-align: center;
-  color: var(--text-color);
+  color: var(--special-color);
   text-decoration: none;
   transition: color 0.5s;
 }
 
 .nav-link:hover {
-  color: var(--hover-color);
+  color: var(--text-color);
+}
+
+/* Links */
+
+.section-item a {
+  text-decoration: none;
+  color: var(--special-color)
+}
+
+/* Sections */
+
+.section {
+  padding: 20px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid var(--special-color);
+}
+
+.section-profile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.section-profile-logo {
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px var(--dark-bg) inset;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 16px;
 }
 
 /* Layouts */
