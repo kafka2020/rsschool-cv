@@ -23,3 +23,20 @@
     src: url(./assets/fonts/SourceCodeProRegular.woff2);
     font-display: swap;
 }
+
+/* Global */
+
+* {
+    box-sizing: border-box;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
