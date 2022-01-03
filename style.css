@@ -30,6 +30,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page-body {
   display: flex;
   flex-direction: column;
@@ -39,4 +43,21 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+/* Navigation */
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
 }
