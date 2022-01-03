@@ -52,25 +52,25 @@
           <h2 class="section-title">Contact Info</h2>
           <ul class="section-list">
             <li class="section-item contacts-item">
-              Address:<span> Stavropolsky kray, Nevinnomyssk, Russia</span>
+              Address: <span>Stavropolsky kray, Nevinnomyssk, Russia</span>
             </li>
             <li class="section-item contacts-item">
-              Phone:<a href="tel:+79064892303" title="phone"> +7 906 4892303</a>
+              Phone: <a href="tel:+79064892303" title="phone">+7 906 4892303</a>
             </li>
             <li class="section-item contacts-item">
-              E-mail:<a href="mailto:shinkarev89@gmail.com" title="email"> shinkarev89@gmail.com</a>
+              E-mail: <a href="mailto:shinkarev89@gmail.com" title="email">shinkarev89@gmail.com</a>
             </li>
             <li class="section-item contacts-item">
-              Discord:<a href="https://discord.com/invite/zUr7wWYPXE" title="discord"> Andrey Shinkarev (@kafka2020)</a>
+              Discord: <a href="https://discord.com/invite/zUr7wWYPXE" title="discord">Andrey Shinkarev (@kafka2020)</a>
             </li>
             <li class="section-item contacts-item">
-              Telegram:<a href="https://t.me/kafka2021" title="telegram"> @kafka2021</a>
+              Telegram: <a href="https://t.me/kafka2021" title="telegram">@kafka2021</a>
             </li>
             <li class="section-item contacts-item">
-              GitHub:<a href="https://github.com/kafka2020" title="github"> kafka2020</a>
+              GitHub: <a href="https://github.com/kafka2020" title="github">kafka2020</a>
             </li>
             <li class="section-item contacts-item">
-              LinkedIn:<a href="https://www.linkedin.com/in/andrey-shinkarev-0b43b4166/">Anreay Shinkarev</a>
+              LinkedIn: <a href="https://www.linkedin.com/in/andrey-shinkarev-0b43b4166/">Anreay Shinkarev</a>
             </li>
           </ul>
         </section>
@@ -100,6 +100,38 @@
             </li>
             <li class="section-item">
               VS Code, Chrome DevTools, Figma
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="#code">
+          <h2 class="section-title">Code example</h2>
+          <pre class="pre">
+            <code>
+let commentForm = document.querySelector('.comment-form');
+let commentList = document.querySelector('.comment-list');
+let commentField = document.querySelector('.comment-field');
+
+commentForm.onsubmit = function (evt) {
+  evt.preventDefault();
+
+  let newComment = document.createElement('li');
+  newComment.classList.add('user-comment');
+  newComment.textContent = commentField.value;
+  commentField.value = '';
+  commentList.append(newComment);
+};
+            </code>
+          </pre>
+        </section>
+        <section class="section" id="#experience">
+          <h2 class="section-title">Experience</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              WorldSkills Standard Specification: <a href="https://sp.dp.worldskills.ru/679252e3-5671-4453-b872-c605afdfaf98">Skills Passport</a>
+              <p class="section-item-text">Design and web-development course</p>
+              <p class="section-item-description">
+                Exam paper (HTML, CSS, JavaScript): <a href="https://kafka2020.github.io/Design.pro/" title="github">GitHub</a>
+              </p>
             </li>
           </ul>
         </section>
