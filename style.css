@@ -86,10 +86,16 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .nav-list {
   list-style: none;
+}
+
+.nav-item {
+  min-width: 0;
 }
 
 .nav-link {
@@ -141,6 +147,10 @@ html {
   margin: 0;
   font-family: "Source Code Pro", sans-serif;
   font-size: 16px;
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Footer */
